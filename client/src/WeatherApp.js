@@ -23,7 +23,7 @@ function WeatherApp() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4 font-sans">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-3xl shadow-2xl p-8 text-center">
         <h1 className="text-4xl font-extrabold text-blue-600 mb-6">Mausam Update 🌦️</h1>
         
