@@ -9,4 +9,3 @@ root.render(
     <WeatherApp />
   </React.StrictMode>
 );
-
