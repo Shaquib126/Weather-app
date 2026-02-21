@@ -8,6 +8,7 @@ function WeatherApp() {
   const fetchWeather = async () => {
     try {
       setError(""); 
+      // Abhi ke liye localhost, baad mein hum ise Render ke link se badlenge
       const response = await fetch(`http://localhost:5000/api/weather?city=${city}`);
       const data = await response.json();
       
